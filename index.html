@@ -3,203 +3,803 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Imma Graphics | Home</title>
+
+    <meta name="description" content="Imma Graphics - Digital Marketing and Creative Design services including social media marketing, Meta Ads, Google Ads, branding, graphic design and web design." />
+    <meta name="keywords" content="Digital Marketing Kenya, Graphic Designer Kenya, Social Media Marketing, Meta Ads, Google Ads, Branding, Imma Graphics" />
+    <meta name="author" content="Emmanuel Angolo Shakwira - Imma Graphics" />
+
+    <title>Imma Graphics | Digital Marketing & Creative Design</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
-
-    <!-- Custom Styles -->
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        .whatsapp-float {
-            position: fixed;
-            width: 50px;
-            height: 50px;
-            bottom: 15px;
-            right: 15px;
-            background-color: #25D366;
-            border-radius: 50%;
-            text-align: center;
-            line-height: 50px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-            z-index: 1000;
-        }
-
-        .whatsapp-float img {
-            width: 28px;
-        }
-
-        .whatsapp-float:hover {
-            background-color: #1ebe5d;
-        }
-
-        .hero {
-            background: #111;
-        }
-    </style>
 </head>
 
 <body>
 
-<!-- WhatsApp Button -->
-<a href="https://wa.me/254725888672?text=Hello%20I%20am%20interested%20in%20your%20services" 
-   class="whatsapp-float" target="_blank">
-   <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+<!-- =========================
+     WHATSAPP FLOATING BUTTON
+========================= -->
+<a href="https://wa.me/254725888672?text=Hello%20Imma%20Graphics,%20I%20would%20like%20to%20discuss%20a%20project."
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat with Imma Graphics on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
 </a>
 
-<!-- Header -->
-<header class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="Home.html">Imma Graphics</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<!-- =========================
+     NAVIGATION
+========================= -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
 
-        <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
+            <a class="navbar-brand fw-bold" href="index.html">
+                <span>IMMA</span> GRAPHICS
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navMenu"
+                    aria-controls="navMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+                        <a href="https://wa.me/254725888672?text=Hello%20Imma%20Graphics,%20I%20would%20like%20to%20work%20with%20you."
+                           target="_blank"
+                           class="nav-cta">
+                            Let's Work Together
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
         </div>
-    </div>
+    </nav>
 </header>
 
-<!-- HERO -->
-<section class="hero d-flex align-items-center text-white py-5">
-    <div class="container">
-        <div class="row align-items-center text-center text-md-start">
 
-            <div class="col-md-6 mb-4 mb-md-0">
-                <h1 class="fw-bold display-5">
-                    Creative Designs That Grow Your Brand
+<!-- =========================
+     HERO
+========================= -->
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container position-relative">
+
+        <div class="row align-items-center">
+
+            <!-- Hero Text -->
+            <div class="col-lg-7">
+
+                <span class="hero-label">
+                    DIGITAL MARKETING & CREATIVE DESIGN
+                </span>
+
+                <h1>
+                    I Help Brands
+                    <span>Stand Out, Connect & Grow.</span>
                 </h1>
-                <p class="mt-3">
-                    Logos • Social Media • Branding • Print Design
+
+                <p class="hero-description">
+                    I combine digital marketing strategy, creative design and
+                    engaging content to help businesses build stronger brands
+                    and reach the right audience online.
                 </p>
-                <a href="portfolio.html" class="btn btn-primary btn-lg mt-3 w-100 w-md-auto">
-                    View My Work
+
+                <div class="hero-buttons">
+
+                    <a href="portfolio.html" class="btn-main">
+                        View My Work
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="https://wa.me/254725888672?text=Hello%20Imma%20Graphics,%20I%20would%20like%20to%20discuss%20a%20project."
+                       target="_blank"
+                       class="btn-outline">
+                        Let's Talk
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+                <div class="hero-skills">
+
+                    <span>Graphic Design</span>
+                    <span>Digital Marketing</span>
+                    <span>Social Media</span>
+                    <span>Web Design</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero Image -->
+            <div class="col-lg-5 mt-5 mt-lg-0">
+
+                <div class="hero-image-wrapper">
+
+                    <div class="hero-image-glow"></div>
+
+                    <img src="Images/Talanta Hela initiative logo.jpg"
+                         alt="Imma Graphics Creative Design Project"
+                         class="hero-image">
+
+                    <div class="floating-card card-one">
+                        <i class="fas fa-bullhorn"></i>
+                        <div>
+                            <small>Digital Marketing</small>
+                            <strong>Campaigns</strong>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-two">
+                        <i class="fas fa-pen-nib"></i>
+                        <div>
+                            <small>Creative</small>
+                            <strong>Design</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     INTRO / VALUE
+========================= -->
+<section class="value-section">
+
+    <div class="container">
+
+        <div class="section-heading text-center">
+
+            <span class="section-tag">WHAT I DO</span>
+
+            <h2>
+                Creative Solutions With
+                <span>Marketing Purpose</span>
+            </h2>
+
+            <p>
+                Good design gets attention. Good marketing turns that attention
+                into meaningful engagement and business opportunities.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+            <!-- Digital Marketing -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+
+                    <h3>Digital Marketing</h3>
+
+                    <p>
+                        Helping businesses reach and engage their audiences
+                        through practical digital marketing strategies.
+                    </p>
+
+                    <ul>
+                        <li>Social Media Marketing</li>
+                        <li>Meta Ads</li>
+                        <li>Google Ads</li>
+                        <li>SEO & Content Strategy</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+
+                    <a href="services.html">
+                        Explore Marketing
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Graphic Design -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card featured-service">
+
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+
+                    <h3>Graphic Design</h3>
+
+                    <p>
+                        Creating professional visual communication that helps
+                        brands look consistent, memorable and credible.
+                    </p>
+
+                    <ul>
+                        <li>Brand Identity</li>
+                        <li>Social Media Designs</li>
+                        <li>Advertising Creatives</li>
+                        <li>Posters & Flyers</li>
+                        <li>Company Profiles</li>
+                    </ul>
+
+                    <a href="portfolio.html">
+                        View Design Work
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Web & Content -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+
+                    <h3>Web & Content</h3>
+
+                    <p>
+                        Building digital experiences and content that support
+                        your brand's online presence and marketing goals.
+                    </p>
+
+                    <ul>
+                        <li>Website Design</li>
+                        <li>Landing Pages</li>
+                        <li>Copywriting</li>
+                        <li>Content Creation</li>
+                        <li>Website Optimization</li>
+                    </ul>
+
+                    <a href="services.html">
+                        Explore Services
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MARKETING CAPABILITIES
+========================= -->
+<section class="marketing-section">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <span class="section-tag">DIGITAL MARKETING</span>
+
+                <h2>
+                    More Than Just
+                    <span>Beautiful Designs.</span>
+                </h2>
+
+                <p class="marketing-intro">
+                    I approach digital marketing with both creative and
+                    analytical thinking — creating content that looks good
+                    while supporting a clear business objective.
+                </p>
+
+
+                <div class="marketing-list">
+
+                    <div class="marketing-item">
+                        <div class="marketing-number">01</div>
+                        <div>
+                            <h4>Social Media Strategy</h4>
+                            <p>
+                                Content planning, audience engagement and
+                                platform-specific content.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="marketing-item">
+                        <div class="marketing-number">02</div>
+                        <div>
+                            <h4>Paid Advertising</h4>
+                            <p>
+                                Meta and Google advertising campaigns focused
+                                on reaching relevant audiences.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="marketing-item">
+                        <div class="marketing-number">03</div>
+                        <div>
+                            <h4>Content & Creative</h4>
+                            <p>
+                                Marketing graphics, copy and visual content
+                                designed around campaign objectives.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="marketing-item">
+                        <div class="marketing-number">04</div>
+                        <div>
+                            <h4>Analytics & Optimization</h4>
+                            <p>
+                                Using performance data to understand what is
+                                working and where improvements can be made.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6 mt-5 mt-lg-0">
+
+                <div class="marketing-dashboard">
+
+                    <div class="dashboard-header">
+                        <span>MARKETING TOOLKIT</span>
+                        <i class="fas fa-chart-simple"></i>
+                    </div>
+
+                    <div class="tool-grid">
+
+                        <div class="tool">
+                            <i class="fab fa-google"></i>
+                            <span>Google Ads</span>
+                        </div>
+
+                        <div class="tool">
+                            <i class="fab fa-facebook"></i>
+                            <span>Meta Ads</span>
+                        </div>
+
+                        <div class="tool">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>GA4</span>
+                        </div>
+
+                        <div class="tool">
+                            <i class="fas fa-tags"></i>
+                            <span>GTM</span>
+                        </div>
+
+                        <div class="tool">
+                            <i class="fab fa-wordpress"></i>
+                            <span>WordPress</span>
+                        </div>
+
+                        <div class="tool">
+                            <i class="fas fa-magnifying-glass-chart"></i>
+                            <span>SEO</span>
+                        </div>
+
+                        <div class="tool">
+                            <i class="fas fa-pen-nib"></i>
+                            <span>Photoshop</span>
+                        </div>
+
+                        <div class="tool">
+                            <i class="fas fa-vector-square"></i>
+                            <span>Illustrator</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     RECENT WORK
+========================= -->
+<section class="portfolio-section">
+
+    <div class="container">
+
+        <div class="section-heading text-center">
+
+            <span class="section-tag">SELECTED WORK</span>
+
+            <h2>
+                A Mix of <span>Creative & Marketing Work</span>
+            </h2>
+
+            <p>
+                A selection of projects across branding, social media,
+                advertising and digital content.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="portfolio-item">
+
+                    <img src="Images/House Manager poster.jpg"
+                         alt="House Manager Poster Design">
+
+                    <div class="portfolio-overlay">
+
+                        <span>Graphic Design</span>
+
+                        <h4>Advertising Creative</h4>
+
+                        <a href="portfolio.html">
+                            View Project
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="portfolio-item">
+
+                    <img src="Images/Bright Media.png"
+                         alt="Bright Media Design">
+
+                    <div class="portfolio-overlay">
+
+                        <span>Branding</span>
+
+                        <h4>Brand Visual Design</h4>
+
+                        <a href="portfolio.html">
+                            View Project
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="portfolio-item">
+
+                    <img src="Images/Green Life ltd.png"
+                         alt="Green Life Ltd Design">
+
+                    <div class="portfolio-overlay">
+
+                        <span>Marketing Creative</span>
+
+                        <h4>Social Media Campaign</h4>
+
+                        <a href="portfolio.html">
+                            View Project
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="text-center mt-5">
+
+            <a href="portfolio.html" class="btn-main dark-btn">
+                Explore Full Portfolio
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PROCESS
+========================= -->
+<section class="process-section">
+
+    <div class="container">
+
+        <div class="section-heading text-center">
+
+            <span class="section-tag">MY APPROACH</span>
+
+            <h2>
+                From Idea to <span>Execution</span>
+            </h2>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="process-card">
+
+                    <span>01</span>
+
+                    <i class="fas fa-lightbulb"></i>
+
+                    <h4>Discover</h4>
+
+                    <p>
+                        Understand the brand, audience and objectives.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="process-card">
+
+                    <span>02</span>
+
+                    <i class="fas fa-chess"></i>
+
+                    <h4>Plan</h4>
+
+                    <p>
+                        Develop the creative or marketing approach.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="process-card">
+
+                    <span>03</span>
+
+                    <i class="fas fa-rocket"></i>
+
+                    <h4>Execute</h4>
+
+                    <p>
+                        Create, publish and implement the campaign.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="process-card">
+
+                    <span>04</span>
+
+                    <i class="fas fa-chart-line"></i>
+
+                    <h4>Optimize</h4>
+
+                    <p>
+                        Review performance and identify opportunities to improve.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CTA
+========================= -->
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box text-center">
+
+            <span class="section-tag">LET'S WORK TOGETHER</span>
+
+            <h2>
+                Have a Brand That
+                <span>Needs to Grow?</span>
+            </h2>
+
+            <p>
+                Whether you need creative design, digital marketing or a
+                complete online presence, let's discuss your next project.
+            </p>
+
+            <div class="cta-buttons">
+
+                <a href="https://wa.me/254725888672?text=Hello%20Imma%20Graphics,%20I%20would%20like%20to%20discuss%20a%20project."
+                   target="_blank"
+                   class="btn-main">
+                    Start a Conversation
+                    <i class="fab fa-whatsapp"></i>
                 </a>
-            </div>
 
-            <div class="col-md-6">
-                <img src="Images/Talanta Hela initiative logo.jpg" class="img-fluid rounded">
-            </div>
+                <a href="contact.html" class="btn-outline dark-outline">
+                    Contact Me
+                    <i class="fas fa-arrow-right"></i>
+                </a>
 
-        </div>
-    </div>
-</section>
-
-<!-- SERVICES -->
-<section class="py-5 bg-light text-center">
-    <div class="container">
-        <h2 class="fw-bold mb-4">What I Offer</h2>
-        <div class="row g-4">
-
-            <div class="col-12 col-md-4">
-                <div class="card shadow-sm p-4 h-100">
-                    <h4 class="fw-bold">Branding</h4>
-                    <p>Professional brand identity that sets you apart.</p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card shadow-sm p-4 h-100">
-                    <h4 class="fw-bold">Social Media Design</h4>
-                    <p>Engaging designs that boost your online presence.</p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card shadow-sm p-4 h-100">
-                    <h4 class="fw-bold">Print Media</h4>
-                    <p>Banners, posters, flyers, business cards, and more.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- PORTFOLIO -->
-<section class="py-5 text-center">
-    <div class="container">
-        <h2 class="fw-bold mb-4">Recent Projects</h2>
-        <div class="row g-4">
-
-            <div class="col-12 col-md-4">
-                <img src="Images/House Manager poster.jpg" class="img-fluid rounded shadow w-100">
-            </div>
-
-            <div class="col-12 col-md-4">
-                <img src="Images/Bright Media.png" class="img-fluid rounded shadow w-100">
-            </div>
-
-            <div class="col-12 col-md-4">
-                <img src="Images/Green Life ltd.png" class="img-fluid rounded shadow w-100">
             </div>
 
         </div>
 
-        <a href="portfolio.html" class="btn btn-outline-dark mt-4 w-100 w-md-auto">
-            See Full Portfolio
-        </a>
     </div>
+
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="py-5 bg-light text-center">
-    <div class="container">
-        <h2 class="fw-bold mb-4">What Clients Say</h2>
-        <div class="row g-4">
 
-            <div class="col-12 col-md-4">
-                <div class="p-4 shadow-sm rounded bg-white h-100">
-                    "Amazing work! My brand looks so professional now."
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="p-4 shadow-sm rounded bg-white h-100">
-                    "Very creative, fast delivery and great communication."
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="p-4 shadow-sm rounded bg-white h-100">
-                    "My social media engagement doubled. Highly recommended!"
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- FOOTER -->
+<!-- =========================
+     FOOTER
+========================= -->
 <footer>
-        <p class="mb-2">© 2025 Imma Graphics. All Rights Reserved.</p>
-    <div class="social-icons">
-        <a href="https://www.facebook.com/profile.php?id=100067457895221" target="_blank" aria-label="Facebook">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook">
-        </a>
-        <a href="https://www.instagram.com/imma_graphics_eshakwira321/" target="_blank" aria-label="Instagram">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
-        </a>
-        <a href="https://www.linkedin.com/in/emmanuel-angolo-282870335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
-        </a>
-        <a href="https://www.pinterest.com/eshakwira321" target="_blank" aria-label="Pinterest">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/pinterest.svg" alt="Pinterest">
-        </a>
+
+    <div class="container">
+
+        <div class="footer-brand">
+
+            <h3>IMMA <span>GRAPHICS</span></h3>
+
+            <p>
+                Digital Marketing & Creative Design
+            </p>
+
+        </div>
+
+
+        <div class="social-icons">
+
+            <a href="https://www.facebook.com/profile.php?id=100067457895221"
+               target="_blank"
+               aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="https://www.instagram.com/imma_graphics_eshakwira321/"
+               target="_blank"
+               aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/emmanuel-angolo-282870335/"
+               target="_blank"
+               aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://www.pinterest.com/eshakwira321"
+               target="_blank"
+               aria-label="Pinterest">
+                <i class="fab fa-pinterest-p"></i>
+            </a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <p class="copyright">
+            © 2026 Imma Graphics. All Rights Reserved.
+        </p>
+
     </div>
+
 </footer>
+
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
