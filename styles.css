@@ -1184,3 +1184,503 @@ footer {
         height: 270px;
     }
 }
+
+/* =========================
+   DIGITAL MARKETING CASE STUDY
+========================= */
+
+.case-study-section {
+    padding: 110px 0;
+    background: #f7faf8;
+    position: relative;
+    overflow: hidden;
+}
+
+.case-study-heading {
+    max-width: 760px;
+    margin-bottom: 60px;
+}
+
+.section-tag {
+    display: inline-block;
+    color: #0f9d58;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.case-study-heading h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+.case-study-heading p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #64748b;
+}
+
+
+/* INTRO */
+
+.case-study-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.case-study-content {
+    padding-right: 20px;
+}
+
+.case-label {
+    display: inline-block;
+    background: #e7f7ee;
+    color: #087f45;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.case-study-content h3 {
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 22px;
+}
+
+.case-study-content h3 span {
+    color: #0f9d58;
+}
+
+.case-study-content p {
+    color: #64748b;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.case-study-services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.case-study-services span {
+    background: white;
+    border: 1px solid #dce8e0;
+    padding: 9px 14px;
+    border-radius: 30px;
+    color: #334155;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* CASE STUDY IMAGE */
+
+.case-study-image {
+    background: white;
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.10);
+}
+
+.case-study-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+
+/* RESULTS */
+
+.results-wrapper {
+    margin-bottom: 100px;
+}
+
+.results-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.results-heading h3 {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.result-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 30px 24px;
+    border: 1px solid #e2ebe5;
+    transition: 0.3s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(15, 157, 88, 0.10);
+}
+
+.result-number {
+    color: #0f9d58;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.result-title {
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.result-card p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* CAMPAIGN SHOWCASE */
+
+.campaign-showcase {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.campaign-text h3 {
+    font-size: 36px;
+    color: #0f172a;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.campaign-text p {
+    color: #64748b;
+    line-height: 1.8;
+}
+
+.campaign-points {
+    margin-top: 30px;
+}
+
+.campaign-points div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 0;
+    border-bottom: 1px solid #dfe8e2;
+}
+
+.campaign-points strong {
+    color: #0f9d58;
+    font-size: 14px;
+}
+
+.campaign-points span {
+    color: #334155;
+    font-weight: 600;
+}
+
+.campaign-image {
+    background: white;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.10);
+}
+
+.campaign-image img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+
+/* INSIGHT */
+
+.case-study-insight {
+    background: #0f172a;
+    border-radius: 24px;
+    padding: 45px 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.insight-icon {
+    width: 65px;
+    height: 65px;
+    min-width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0f9d58;
+    border-radius: 16px;
+    font-size: 25px;
+}
+
+.case-study-insight h3 {
+    color: white;
+    font-size: 28px;
+    margin: 5px 0 12px;
+}
+
+.case-study-insight p {
+    color: #cbd5e1;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+    .case-study-intro,
+    .campaign-showcase {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .results-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .case-study-heading h2 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .case-study-section {
+        padding: 75px 0;
+    }
+
+    .case-study-heading h2 {
+        font-size: 34px;
+    }
+
+    .case-study-content h3 {
+        font-size: 30px;
+    }
+
+    .results-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .case-study-insight {
+        padding: 30px 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .case-study-insight h3 {
+        font-size: 24px;
+    }
+
+}
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section {
+    padding: 110px 0;
+    background: #ffffff;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 80px;
+    align-items: center;
+}
+
+/* IMAGE */
+
+.about-image {
+    position: relative;
+    max-width: 480px;
+}
+
+.about-image-frame {
+    position: relative;
+    padding: 12px;
+    background: #eaf8f0;
+    border-radius: 24px;
+}
+
+.about-image-frame img {
+    width: 100%;
+    display: block;
+    border-radius: 18px;
+}
+
+.about-badge {
+    position: absolute;
+    right: -25px;
+    bottom: 30px;
+    background: #0f172a;
+    color: #ffffff;
+    padding: 18px 24px;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.18);
+}
+
+.about-badge strong,
+.about-badge span {
+    display: block;
+}
+
+.about-badge strong {
+    color: #0f9d58;
+    font-size: 20px;
+}
+
+.about-badge span {
+    font-size: 13px;
+    color: #cbd5e1;
+}
+
+/* CONTENT */
+
+.about-content .section-tag {
+    margin-bottom: 12px;
+}
+
+.about-content h2 {
+    font-size: 46px;
+    line-height: 1.15;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 25px;
+}
+
+.about-content h2 span {
+    color: #0f9d58;
+}
+
+.about-content p {
+    color: #64748b;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.about-lead {
+    font-size: 19px;
+    color: #334155 !important;
+    font-weight: 500;
+}
+
+/* SKILLS */
+
+.about-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 30px 0;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 15px;
+    background: #f7faf8;
+    border: 1px solid #e1ebe5;
+    border-radius: 10px;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.skill-item i {
+    color: #0f9d58;
+    width: 18px;
+}
+
+/* BUTTON */
+
+.about-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #0f9d58;
+    color: #ffffff;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.about-button:hover {
+    background: #087f45;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .about-image {
+        margin: 0 auto;
+    }
+
+    .about-content h2 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .about-section {
+        padding: 75px 0;
+    }
+
+    .about-content h2 {
+        font-size: 34px;
+    }
+
+    .about-skills {
+        grid-template-columns: 1fr;
+    }
+
+    .about-badge {
+        right: 10px;
+    }
+
+}
